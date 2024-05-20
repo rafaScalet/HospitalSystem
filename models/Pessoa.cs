@@ -11,9 +11,16 @@ namespace hospital.models
         {
         }
 
-        private string Nome { get; set; }
-        private string Sexo { get; set; }
-        private int Idade { get; set; }
+        protected Pessoa(string nome, string sexo, int idade)
+        {
+            Nome = nome;
+            Sexo = sexo;
+            Idade = idade;
+        }
+
+        protected string Nome { get; set; }
+        protected string Sexo { get; set; }
+        protected int Idade { get; set; }
 
         public abstract string show();
     }

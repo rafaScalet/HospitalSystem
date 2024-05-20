@@ -1,0 +1,14 @@
+C:\Users\labfatec\hospital\bin\Debug\net7.0\hospital.exe
+C:\Users\labfatec\hospital\bin\Debug\net7.0\hospital.deps.json
+C:\Users\labfatec\hospital\bin\Debug\net7.0\hospital.runtimeconfig.json
+C:\Users\labfatec\hospital\bin\Debug\net7.0\hospital.dll
+C:\Users\labfatec\hospital\bin\Debug\net7.0\hospital.pdb
+C:\Users\labfatec\hospital\obj\Debug\net7.0\hospital.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\labfatec\hospital\obj\Debug\net7.0\hospital.AssemblyInfoInputs.cache
+C:\Users\labfatec\hospital\obj\Debug\net7.0\hospital.AssemblyInfo.cs
+C:\Users\labfatec\hospital\obj\Debug\net7.0\hospital.csproj.CoreCompileInputs.cache
+C:\Users\labfatec\hospital\obj\Debug\net7.0\hospital.dll
+C:\Users\labfatec\hospital\obj\Debug\net7.0\refint\hospital.dll
+C:\Users\labfatec\hospital\obj\Debug\net7.0\hospital.pdb
+C:\Users\labfatec\hospital\obj\Debug\net7.0\hospital.genruntimeconfig.cache
+C:\Users\labfatec\hospital\obj\Debug\net7.0\ref\hospital.dll
