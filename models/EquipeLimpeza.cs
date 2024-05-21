@@ -7,8 +7,21 @@ namespace hospital.models
 {
     public sealed class EquipeLimpeza : Pessoa
     {
-        public string Setor { get; set; }
-        public string Funcao { get; set; }
+        private string setor;
+        private string funcao;
+
+        public EquipeLimpeza()
+        {
+        }
+
+        public EquipeLimpeza(string setor, string funcao)
+        {
+            this.setor = setor;
+            this.funcao = funcao;
+        }
+
+        public string Setor { get => setor; set => setor = value; }
+        public string Funcao { get => funcao; set => funcao = value; }
 
         public override string show()
         {

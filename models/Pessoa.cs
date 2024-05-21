@@ -7,20 +7,24 @@ namespace hospital.models
 {
     public abstract class Pessoa
     {
+        private string nome;
+        private string sexo;
+        private int idade;
+
         protected Pessoa()
         {
         }
 
         protected Pessoa(string nome, string sexo, int idade)
         {
-            Nome = nome;
-            Sexo = sexo;
-            Idade = idade;
+            this.nome = nome;
+            this.sexo = sexo;
+            this.idade = idade;
         }
 
-        protected string Nome { get; set; }
-        protected string Sexo { get; set; }
-        protected int Idade { get; set; }
+        public string Nome { get => nome; set => nome = value; }
+        public string Sexo { get => sexo; set => sexo = value; }
+        public int Idade { get => idade; set => idade = value; }
 
         public abstract string show();
     }

@@ -7,8 +7,21 @@ namespace hospital.models
 {
     public sealed class Paciente : Pessoa
     {
-        public string NumeroProntuario { get; set; }
-        public string Diagnostico { get; set; }
+        private string numeroProntuario;
+        private string diagnostico;
+
+        public Paciente()
+        {
+        }
+
+        public Paciente(string numeroProntuario, string diagnostico)
+        {
+            this.numeroProntuario = numeroProntuario;
+            this.diagnostico = diagnostico;
+        }
+
+        public string NumeroProntuario { get => numeroProntuario; set => numeroProntuario = value; }
+        public string Diagnostico { get => diagnostico; set => diagnostico = value; }
 
         public override string show()
         {
